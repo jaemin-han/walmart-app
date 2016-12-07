@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import Chart_Container from './Chart_Container/Chart_Container';
+
 import './reset.css';
 import './App.css';
 
@@ -14,12 +16,14 @@ class App extends Component {
   render() {
     return (
       <div id="app-container">
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet" />
         <Header />
+<<<<<<< HEAD
           {this.props.children && React.cloneElement(this.props.children, {
           state: this.state })}
         <Footer />
+=======
+        <Chart_Container />
+>>>>>>> master
       </div>
     );
   }
