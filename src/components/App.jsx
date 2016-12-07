@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import About from './About/About';
 import Chart_Container from './Chart_Container/Chart_Container';
 
 import './reset.css';
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div id="app-container">
         <Header />
+        <About />
         <Chart_Container />
         <Footer />
       </div>
