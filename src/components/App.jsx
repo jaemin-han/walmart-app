@@ -17,13 +17,8 @@ class App extends Component {
     return (
       <div id="app-container">
         <Header />
-<<<<<<< HEAD
-          {this.props.children && React.cloneElement(this.props.children, {
-          state: this.state })}
-        <Footer />
-=======
         <Chart_Container />
->>>>>>> master
+        <Footer />
       </div>
     );
   }
