@@ -1,5 +1,27 @@
 #chart-container {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: #FFFFFF;
   width: 100vw;
-  height: 80vh;
+  font-family: 'Inconsolata';
+}
+
+#chart-input {
+  font-size: 3vw;
+  border: solid black;
+}
+
+#chart-input:focus {
+  outline: none;
+}
+
+#chart-input-button:focus {
+  outline: none;
+}
+
+#chart-input-button:hover {
+  background-color: #111111;
+  color: #FFFFFF;
 }
