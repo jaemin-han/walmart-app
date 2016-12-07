@@ -16,8 +16,6 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet" />
         <Header />
-          {this.props.children && React.cloneElement(this.props.children, {
-          state: this.state })}
       </div>
     );
   }
