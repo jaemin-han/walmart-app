@@ -4,12 +4,11 @@
   align-items: center;
 
   width: 100vw;
-  height: 30vh;
   background-color: #FFFFFF;
   color: #111111;
 }
 
-#header-title {
-  font-family: 'Megrim', cursive;
-  font-size: 13vh;
+#walmart-logo {
+  margin-top: 10vh;
+  width: 50vw;
 }
