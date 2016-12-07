@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import './reset.css';
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
         <Header />
           {this.props.children && React.cloneElement(this.props.children, {
           state: this.state })}
+        <Footer />
       </div>
     );
   }
