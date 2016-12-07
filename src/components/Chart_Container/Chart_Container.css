@@ -2,15 +2,26 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-  background-color: #FFFFFF;
+  background-color: #FAEBD7;;
   width: 100vw;
   font-family: 'Inconsolata';
+  margin-top: 5vh;
 }
 
 #chart-input {
   font-size: 3vw;
   border: solid black;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+   font-size: 30px;
+
+}
+
+#chart-input-button {
+  padding: 5px 15px;
+
 }
 
 #chart-input:focus {
