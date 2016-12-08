@@ -12,9 +12,22 @@
   margin: 0;
 }
 
-#about_p {
+#center {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about_p {
   font-size: 16px;
-  padding: 20px 40px;
+/*  padding: 20px 40px;*/
   line-height: 120%;
   margin: 0;
+}
+
+.half-col {
+  width: 42vw;
+  float: left;
+  padding: 2em;
+  position: relative;
+  min-height: 1px;
 }
