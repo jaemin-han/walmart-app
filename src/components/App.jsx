@@ -18,8 +18,8 @@ class App extends Component {
     return (
       <div id="app-container">
         <Header />
-        <About />
         <Chart_Container />
+        <About />
         <Footer />
       </div>
     );

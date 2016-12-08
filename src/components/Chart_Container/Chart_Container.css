@@ -1,14 +1,31 @@
 #chart-container {
-  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #FAEBD7;
   width: 100vw;
   font-family: 'Inconsolata';
+  margin: 5vh 5vh;
 }
 
 #chart-input {
-  display: block;
-  font-size: 3vw;
+  font-size: 2.2vw;
   border: solid black;
   margin: 5vh auto;
+}
+
+webkit-input-placeholder {
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Inconsolata';
+}
+
+#chart-input-button {
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  border: solid black;
+  font-family: 'Inconsolata';
 }
 
 #chart-input:focus {
