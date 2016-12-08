@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import About from './About/About';
 import Chart_Container from './Chart_Container/Chart_Container';
+// import Data_Chart from './Data_Chart/Data_Chart';
 
 import './reset.css';
 import './App.css';
