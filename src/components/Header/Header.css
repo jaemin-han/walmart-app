@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-left: 2vw;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: #FAEBD7;
   color: #111111;
 }
 
 #walmart-logo {
-  margin-top: 10vh;
-  width: 50vw;
+  margin-top: 2vh;
+  width: 35vw;
 }
