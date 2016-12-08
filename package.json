@@ -15,12 +15,14 @@
     "rebuild": "webpack -d --progress --colors",
     "watch": "webpack -d --progress --watch"
   },
-   "dependencies": {
+  "dependencies": {
     "body-parser": "^1.15.2",
+    "chart.js": "^2.4.0",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "path": "^0.12.7",
-    "pg-promise": "^5.2.7"
+    "pg-promise": "^5.2.7",
+    "react-chartjs": "^0.8.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",
