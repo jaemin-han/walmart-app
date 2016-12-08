@@ -1,18 +1,20 @@
 .about-container {
-  background-color: #FAEBD7;
-  height: 35vh;
+  background-color: #DCDCDC;
+  height: 60vh;
   width: 100%;
   /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 #about_h2 {
   font-size: 35px;
-  margin-top: 5vh;
-  padding: 20px 10px;
+  padding: 30px 40px 10px 40px;
+  margin: 0;
 }
 
 #about_p {
   font-size: 16px;
-  margin-top: 6vh;
-  padding: 20px 10px;
+  padding: 20px 40px;
+  line-height: 120%;
+  margin: 0;
 }

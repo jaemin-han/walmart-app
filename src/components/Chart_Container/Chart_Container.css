@@ -5,23 +5,26 @@
   background-color: #FAEBD7;;
   width: 100vw;
   font-family: 'Inconsolata';
-  margin-top: 5vh;
+  margin: 5vh 5vh;
 }
 
 #chart-input {
-  font-size: 3vw;
+  font-size: 2.2vw;
   border: solid black;
 }
 
 ::-webkit-input-placeholder {
    text-align: center;
    font-size: 30px;
-
+   font-family: 'Inconsolata';
 }
 
 #chart-input-button {
-  padding: 5px 15px;
-
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  border: solid black;
+  font-family: 'Inconsolata';
 }
 
 #chart-input:focus {
