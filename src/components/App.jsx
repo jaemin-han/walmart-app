@@ -12,14 +12,30 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      currentUser: null,
+      data: [],
     };
   }
+
+ componentDidMount() {
+    this.getAllData();
+  }
+
+getAllData() {
+    fetch('localhost:4000/')
+        .then(r => r.json())
+        .then((data) => {
+          this.setState({
+            data: data,
+          });
+        })
+        .catch(err => console.log('getAllData', err));
+  }
+
   render() {
     return (
       <div id="app-container">
         <Header />
-        <Chart_Container />
+        <Chart_Container data={this.state.data} />
         <About />
         <Footer />
       </div>
