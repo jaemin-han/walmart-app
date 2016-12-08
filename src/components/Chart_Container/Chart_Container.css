@@ -1,20 +1,25 @@
 #chart-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
   background-color: #FFFFFF;
   width: 100vw;
   font-family: 'Inconsolata';
 }
 
 #chart-input {
+  display: block;
   font-size: 3vw;
   border: solid black;
+  margin: 5vh auto;
 }
 
 #chart-input:focus {
   outline: none;
+}
+
+#chart-input-button {
+  display: block;
+  margin: 3vh auto;
+  width: 8vw;
+  height: 6vh;
 }
 
 #chart-input-button:focus {
